@@ -4,3 +4,125 @@
 
 /* BACKGROUND IMAGE URL */
 /* https://res.cloudinary.com/jkeohan/image/upload/v1607432403/coworking_nxwjrp.jpg */
+* {
+    box-sizing:border-box;
+  }
+  
+  body {
+    padding: 10px;
+  }
+  
+  img {
+    width:100%;
+  }
+  
+  .wrapper {
+    width: 900px;
+    /* height: 525px; had help during office hours */
+    font-size:1em;
+  }
+  
+  
+  /* ADD YOUR CSS BELOW  */
+  
+  /* header {
+    border: 1px solid;
+  } */
+ 
+ .container > header {
+    display: flex;
+    background-color: black;
+    border-bottom: 5px solid #F2FF00;
+    align-items: center;
+    width: 891px;
+  }
+  .container {
+      background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/coworking.jpg);
+      background-repeat: no-repeat;
+      height: 891px;
+      width: 891px;
+      display: block;
+      border: 1px solid black;
+  }
+  h1 {
+    color: #f2ff00;
+    font-size: 32px;
+    font-weight: 600;
+    padding: 12px 40px 12px 40px;
+  }
+  
+  .blurb {
+      display: block;
+      background-color: #adadad;
+      opacity: 80%;
+      border: 1px solid;
+      text-align: center;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      margin-top: 25px;
+      max-width: 405px;
+      height: 250px;
+      width: 400px;    
+      float: right;
+  }
+  .button {
+      display: flex;
+    background-color: #ffd900;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    font-weight: bold;
+    align-items: center;
+    font-size: 16px;
+    width: 200px;
+  }
+
+ .touts {
+    display: flex;
+    opacity: 80%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 550px;
+}
+    h3, p {
+      text-align: center; 
+    }
+    
+  ul {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  li {
+    padding: 10px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  li:nth-of-type(1), li:nth-of-type(2) {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  del {
+      opacity: 40%;
+  }
+  ins {
+        text-decoration-color: yellow;
+  }
+
+  footer {
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    width: 891px;   
+    height: 50px;
+    margin-top: 300px;
+  }
+ 
